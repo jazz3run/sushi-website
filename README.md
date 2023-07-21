@@ -1,8 +1,8 @@
 # Responsive Sushi Website
 ## Modern Desing
 
-- Using Git To Manage Versions
-- Responsive Sushi Restaurant Website Design Using HTML CSS & JavaScript
+- Using Git To Manage Versions.
+- Responsive Sushi Restaurant Website Design Using HTML CSS & JavaScript.
 - Includes a dark and light mode.
 - Smooth scrolling in each section.
 - Contains animations when scrolling.
