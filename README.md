@@ -1,5 +1,5 @@
 # Responsive Sushi Website
-## Responsive Sushi Website
+## Modern Desing
 
 - Using Git To Manage Versions
 - Responsive Sushi Restaurant Website Design Using HTML CSS & JavaScript
