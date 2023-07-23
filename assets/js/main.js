@@ -38,6 +38,19 @@ const scrollHeader = ()=>{
 }
 window.addEventListener('scroll', scrollHeader);
 
+/*=============== SUSCIBE ===============*/ 
+const email = document.getElementById('email');
+
+const suscribe = ()=>{
+	event.preventDefault();
+	if (email.value != "") {;
+	alert("¡Gracias por suscribirte!");
+	email.value = "";
+} else{
+	alert("¡No ha completado los campos!");
+}
+}
+
 /*=============== SHOW SCROLL UP ===============*/ 
 
 
