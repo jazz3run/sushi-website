@@ -52,7 +52,13 @@ const suscribe = ()=>{
 }
 
 /*=============== SHOW SCROLL UP ===============*/ 
-
+const scrollUp = ()=>{
+	const scrollUp = document.getElementById('scroll-up');
+	// When the scroll is higher tan 50vh, add the show-scroll
+	this.scrollY >= 350 ? scrollUp.classList.add("show-scroll")
+						: scrollUp.classList.remove("show-scroll")		 
+}		
+window.addEventListener("scroll", scrollUp);	
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 
