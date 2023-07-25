@@ -1125,8 +1125,9 @@ body.dark-theme{
 
   .recently__data-img{
     width: 30px;
-    top: 5.5rem;
-    right: 2.5em;
+    top: 2.5rem;
+    right: 1em;
+  }
   }
 
   .recently__img{
