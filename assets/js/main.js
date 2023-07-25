@@ -51,6 +51,14 @@ const suscribe = ()=>{
 }
 }
 
+/*=============== ADD SHOP ===============*/ 
+const buttonShop = document.querySelectorAll('.popular__button');
+
+buttonShop.addEventListener('click', ()=>{
+	alert('Lo sentimos, esa funcioon no esta diponible aun')
+})
+
+
 /*=============== SHOW SCROLL UP ===============*/ 
 const scrollUp = ()=>{
 	const scrollUp = document.getElementById('scroll-up');
