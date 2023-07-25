@@ -93,13 +93,13 @@ const selectedIcon  = localStorage.getItem('selected-icon');
 
 // We obtain the current theme that the interface has by validating the dark-theme class
 const getCurrentTheme = ()=> document.body.classList.contains(darkTheme) ? 'dark' : 'light'
-const getCurrentIcon  = ()=> document.classList.contains(iconTheme) ? 'ri-moon-line' : 'ri-sun-line'
+const getCurrentIcon  = ()=> themeButton.classList.contains(iconTheme) ? 'ri-sun-line' : 'ri-moon-line'
 
 // We validate if the user previously chose a topic
 if(selectedTheme){
 	// If the validation is fulfilled, we ask what the issue was to know if we activated or desactivated the dark
-	document.body.classList[selectedTheme == 'dark' ? 'add' : 'remove'](darkTheme)
-	themeButton.classList[selectedIcon == 'ri-moon-line' ? 'add' : 'remove'](iconTheme)
+	document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](darkTheme)
+	themeButton.classList[selectedIcon === 'ri-sun-line' ? 'add' : 'remove'](iconTheme)
 }
 
 // Activate / deactivate the theme manually with the button
@@ -113,3 +113,15 @@ themeButton.addEventListener('click', ()=>{
 })
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
+const sr = ScrollReveal({
+	origin: 'top',
+	distance: '60px',
+	duration: 2000,
+	delay: 50,
+});
+
+sr.reveal('.home__img, .newsletter__container, .map__web')
+sr.reveal('.home__data, .footer__logo, .footer__description, .footer__content, .footer__info', {origin: 'bottom'})
+sr.reveal('.about__data, .recently__data, .map__description', {origin: 'left'})
+sr.reveal('.about__img, .recently__img', {origin: 'right'})
+sr.reveal('.popular__card', {interval: 100})
