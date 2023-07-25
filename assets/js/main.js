@@ -52,9 +52,7 @@ const suscribe = ()=>{
 }
 
 /*=============== ADD SHOP ===============*/ 
-const buttonShop = document.querySelectorAll('popular__button');
-
-buttonShop.addEventListener('click', ()=>{
+const shop = ()=>{
 	alert('Lo sentimos, esa funcioon no esta diponible aun')
 })
 
