@@ -53,7 +53,7 @@ const suscribe = ()=>{
 
 /*=============== ADD SHOP ===============*/ 
 const shop = ()=>{
-	alert('Lo sentimos, esa funcioon no esta diponible aun')
+	alert('Lo sentimos, esa función no esta diponible aun')
 }
 
 
